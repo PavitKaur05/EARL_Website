@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Robotics and Tinkering Lab</title>
+	    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+   
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <style>
+      .list{
+        border: 1px solid black;
+      }
+      	.display{
+      		width: 100%;
+    		height: 100px;
+    		border-radius: 150px;
+
+      	}
+      	.display:hover{
+      		border:4px solid yellow;
+      		box-shadow: 3px 3px orange;
+      	}
+
+      </style>
+</head>
+<body >
+	<nav class="nav-wrapper red lighten-1">
+    	<div class="container">
+     		 <a href="#" class="brand-logo">Robotics</a>
+      		 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      		 <ul class="right hide-on-med-and-down">
+        		<li><a href="#">About</a></li>
+        		<li class="active "><a href="#">Instruments</a></li>
+        		<li><a href="#">Our Projects</a></li>
+        		<li><a href="#">Contact Us</a></li>
+      		</ul>
+    	</div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="#">About</a></li>
+    <li class="active"><a href="#">Instrument</a></li>
+    <li><a href="#">Our Projects</a></li>
+    <li><a href="#">Contact Us</a></li>
+  </ul>
+  <!-- Dropdown Structure -->
+  <ul id='dropdown1' class='dropdown-content'>
+    <li><a href="#motors">Motors</a></li>
+    <li><a href="#robotics">Robotics</a></li>
+    <li><a href="#arduino">arduino</a></li>
+    <li><a href="#four">four</a></li>
+    <li><a href="#five">five</a></li>
+  </ul>
+
+ <!-- Dropdown Trigger -->
+ 	<div class="container">
+     <div class="row" style="margin: 25px;">
+      <div class="col s6 m4 l4 left" ><a class="dropdown-trigger btn-large right" id="dropdown-button" href='#' data-target='dropdown1' ><span style="padding:50px;">Components</span></a></div>
+      <div class="col s6 m8 l8"><input type="text" placeholder="&nbsp &nbsp what are you looking for...?" style="background:transparent;outline:0;border:1px solid black; padding:4px; font-color:black;"></div>
+     </div>
+    </div>
+
+        <!--display img-->
+    	<div class="carousel carousel-slider center">
+                <div class="carousel-fixed-item center">
+                </div>
+                <div class="carousel-item " href="#one!">
+                 <img src="http://ggi.ac.in/wp-content/uploads/2017/05/ss.png"  width="100%" height="100%" min-height="400px">
+                </div>
+                <div class="carousel-item s " href="#two!">
+                        <img src="https://www.redwood.com/redwood_theme/img/hero-stills/Robotics2.jpg"  width="100%" height="100%" min-height="400px">
+                 </div>
+                <div class="carousel-item " href="#three!">
+                        <img src="https://cdn.sick.com/media/658/9/69/469/IM0078469.jpg"  width="100%" height="100%" min-height="400px">
+                       </div>
+                       <div class="carousel-item " href="#four!">
+                            <img src="https://www.manufacturingglobal.com/sites/default/files/styles/slider_detail/public/topic/image/GettyImages-674906266_0.jpg?itok=xg50matO"  width="100%" height="100%" min-height="400px">
+                           </div>
+
+            
+    
+            </div>
+            <div class="container" id="services">
+                    <h2 class="red-text">Instruments</h2>
+                    <div class="row">
+                        <div class="col s12 m4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img class="responsive-img"  src="ac motor.jpg" >
+                                    <a href="#" class="halfway-fab btn-floating pink pulse">
+                                        <i class="material-icons">favorite</i>
+                                    </a>  
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">ac motor</span>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam cumque iste nulla a est ducimus itaque error tenetur aliquid voluptas quod magni quas et, cupiditate ab. Amet laboriosam repudiandae dolore voluptatibus aut fugiat.</p>
+                                </div>
+                                <div class="card-action">
+                                    <a href="#">more details</a>
+                                    <a href="#">add to cart</a>
+                                </div>
+                            </div>
+            
+                        </div>
+                    
+            
+                        <div class="col s12 m4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="12v battery.jpg" alt="">
+                                        <a href="#" class="halfway-fab btn-floating pink pulse">
+                                            <i class="material-icons">favorite</i>
+                                        </a>  
+                                    </div>
+                                    <div class="card-content">
+                                        <span class="card-title">12v battery</span>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam cumque iste nulla a est ducimus itaque error tenetur aliquid voluptas quod magni quas et, cupiditate ab. Amet laboriosam repudiandae dolore voluptatibus aut fugiat.</p>
+                                    </div>
+                                    <div class="card-action">
+                                        <a href="#">more details</a>
+                                        <a href="#">add to cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col s12 m4">
+                                    <div class="card">
+                                        <div class="card-image">
+                                            <img class="responsive-img"  src="arduino mega.jpg" >
+                                            <a href="#" class="halfway-fab btn-floating pink pulse">
+                                                <i class="material-icons">favorite</i>
+                                            </a>  
+                                        </div>
+                                        <div class="card-content">
+                                            <span class="card-title">arduino mega</span>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam cumque iste nulla a est ducimus itaque error tenetur aliquid voluptas quod magni quas et, cupiditate ab. Amet laboriosam repudiandae dolore voluptatibus aut fugiat.</p>
+                                        </div>
+                                        <div class="card-action">
+                                            <a href="#">more details</a>
+                                            <a href="#">add to cart</a>
+                                        </div>
+                                    </div>
+                    
+                                </div>
+            
+            
+                        </div>
+                    </div>
+                   
+            
+            
+            
+            
+              
+              <!-- contact form -->
+               <section class="section container scrollspy" id="contact">
+                   <div class="row">
+                       <div class="col s12 l5">
+                           <h2 class="red-text ">GET IN TOUCH</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quibusdam, minima harum magnam dolores vitae tempore eum repellendus optio fugit quis modi numquam consequatur molestias quo commodi dolorem voluptatibus dolorum consectetur doloremque debitis architecto.</p>
+                       </div>
+                       <div class="col s12 l5 offset-l2">
+                           <form action="">
+                               <div class="input-field">
+                                   <i class="material-icons prefix">email</i>
+                                   <input type="email" id="email">
+                                   <label for="email">your email</label>
+                               </div>
+                               <div class="input-field">
+                                    <i class="material-icons prefix">message</i>
+                                    <textarea name="message" class="materialize-textarea"></textarea>
+                                     <label for="message">your message</label>
+                                 </div>
+                                 <div class="input-field">
+                                     <input type="text" id="date" class="datepicker">
+                                     <label for="date">Choose a date you need me on.....</label>
+                                 </div>
+                                 <!-- <div class="input-field">
+                                     <p>Services required..</p>
+                                     <p>
+                                         <label>
+                                             <input type="checkbox">
+                                             <span>Photography</span>
+                                         </label>
+                                     </p>
+                                     <p>
+                                            <label>
+                                                <input type="checkbox">
+                                                <span>editing</span>
+                                            </label>
+                                        </p>
+                                 </div> -->
+                                 <div class="input-field center">
+                                        <button class="btn">submit</button>
+                                 </div>
+                           </form>
+                       </div>
+                   </div>
+               </section>
+              <!-- footer -->
+              <footer class="page-footer grey darken-3">
+                  <div class="container">
+                      <div class="row">
+                          <div class="col s12 l6">
+                              <h5>About Me</h5>
+                              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non ratione ullam repudiandae reprehenderit, est hic culpa, at recusandae ut exercitationem velit a iure, commodi soluta doloremque labore modi similique nisi voluptates impedit ab?</p>
+                          </div>
+                          <div class="col s12 l4 offset-l2">
+                              <h5>Connect</h5>
+                              <ul>
+                                  <li><a href="#" class="grey-text text-lighten-3">facebook</a></li>
+                                  <li><a href="#" class="grey-text text-lighten-3">instagram</a></li>
+                                  <li><a href="#" class="grey-text text-lighten-3">linked in</a></li>
+                                  <li><a href="#" class="grey-text text-lighten-3">twitter</a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="footer-copyright grey darken-4">
+                      <div class="container center-align">&copy; 2019 e-yantra</div>
+                  </div>
+              </footer>
+            
+              <!-- Compiled and minified JavaScript -->
+              <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+              
+                <script>
+                $(document).ready(function(){
+                    $('.sidenav').sidenav();
+                    $('.materialboxed').materialbox();
+                    $('.parallax').parallax();
+                    $('.tabs').tabs();
+                    $('.datepicker').datepicker({
+                        disableWeekends:true
+                    });
+                    $('.tooltipped').tooltip();
+                    $('.scrollspy').scrollSpy();
+                });
+                $('.dropdown-trigger').dropdown();
+              </script>
+              <script>
+                  $(document).ready(function(){
+                      $('.sidenav').sidenav();
+                       $(".dropdown-button").dropdown();
+                  })
+              </script>
+              <script>  
+             $('.carousel.carousel-slider').carousel({
+    fullWidth: true,
+    indicators: true
+  })
+                </script>
+                
+            </body>
+            </html>
